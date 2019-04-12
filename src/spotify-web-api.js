@@ -1496,8 +1496,7 @@ SpotifyWebApi.prototype = {
       .withQueryParameters(options)
       .build()
       .execute(HttpManager.get, callback);
-  },
-
+  }, 
   /**
    * Request an access token using the Client Credentials flow.
    * Requires that client ID and client secret has been set previous to the call.
