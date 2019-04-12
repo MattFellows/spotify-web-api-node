@@ -1496,7 +1496,7 @@ SpotifyWebApi.prototype = {
       .withQueryParameters(options)
       .build()
       .execute(HttpManager.get, callback);
-  }
+  },
 
   /**
    * Request an access token using the Client Credentials flow.
@@ -1571,7 +1571,7 @@ SpotifyWebApi.prototype = {
       })
       .build()
       .execute(HttpManager.post, callback);
-  }
+  },
 };
 
 SpotifyWebApi._addMethods = function(methods) {
